@@ -4,6 +4,8 @@ import { HomeSubito } from './pages/Home';
 import './App.css';
 import { SignIn } from './pages/SignIn';
 import { SignUp } from './pages/SignUp';
+import { Vehicules } from './pages/Vehicules';
+import { NotFound } from './pages/404';
 
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
         < Route path="/" exact element={<HomeSubito />} />
         < Route path="auth/login"  element={<SignIn/>} />
         < Route path="auth/register" element={<SignUp/>} />
+        <Route path="/vehicule" element={<Vehicules/>} />
+        <Route path="*" element={<NotFound/> }  />
 
       </Routes>
     </Router>

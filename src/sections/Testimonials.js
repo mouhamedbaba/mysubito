@@ -12,7 +12,7 @@ export const Testimonials = () => {
           "Service de qualité, avec un chauffeur très sympa... Très respectueux du code de la route, comme si c'est LeCab sur Dakar... Hâte d'être de nouveau à bord.",
       },
       {
-        src: "assets/img/testimonials/Nadine_soyez.jpg",
+        src: "assets/img/testimonials/Nadine_Soyez.jpg",
         name: "Nadine soyez",
         comment:
         "Je recommande. Ponctuels et sympathiques, les chauffeurs ont assuré notre trajet aller et retour Dakar _ Saly. Voiture adaptée à notre besoin. Merci.",
@@ -24,13 +24,13 @@ export const Testimonials = () => {
           "Service de qualité, avec un chauffeur très sympa... Très respectueux du code de la route, comme si c'est LeCab sur Dakar... Hâte d'être de nouveau à bord.",
       },
       // {
-      //   src: "assets/img/testimonials/Marjolaine_Blanc.jpg",
-      //   name: "Marjolaine Blanc",
-      //   comment:
-      //     "J'ai utilisé les services de Subito plusiers fois entre 2021 et 2023 vers ou de AIDB,  chaque le processus de réservation est fluide, le chauffeur arrive en avance pour le transfert , la conduite est prudente , les véhicules sont propres et confortables."
+      //    src: "assets/img/testimonials/Marjolaine_Blanc.jpg",
+      //    name: "Marjolaine Blanc",
+      //    comment:
+      //    "J'ai utilisé les services de Subito plusiers fois entre 2021 et 2023 vers ou de AIDB,  chaque le processus de réservation est fluide, le chauffeur arrive en avance pour le transfert , la conduite est prudente , les véhicules sont propres et confortables."
       // },
       {
-        src: "assets/img/testimonials/Nadine_soyez.jpg",
+        src: "assets/img/testimonials/Nadine_Soyez.jpg",
         name: "Nadine soyez",
         comment:
           "Je recommande. Ponctuels et sympathiques, les chauffeurs ont assuré notre trajet aller et retour Dakar _ Saly. Voiture adaptée à notre besoin. Merci.",

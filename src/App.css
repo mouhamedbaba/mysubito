@@ -453,10 +453,10 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .promo-bg:hover .text-promo {
+  /* .promo-bg:hover .text-promo {
     -webkit-animation: kenburns-top .3s ease-in alternate forwards;
     animation: kenburns-top .5s ease-in alternate forwards
-  }
+  } */
 
   .text-promo {
     color: #ffffff80;
