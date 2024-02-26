@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Hero } from "./Hero"
 import { useState, useEffect } from "react";
 
@@ -29,9 +30,9 @@ export const Navbar = () => {
         <div>
             <nav className={`navbar fixed-top navbar-expand-lg ${navbarColor} navbar-light`}>
                 <div className="container-fluid p-0 ">
-                    <a className="navbar-brand" href="#">
-                        <img className="logo h-75 w-75" src ="https://mysubito.net/assets/logo-texte2-mysubito%201-740c9d1a.png"/>
-                    </a>
+                    <Link className="navbar-brand" to="/">
+                        <img className="logo h-75 w-75" src ="logo.png" alt="logo" />
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -46,7 +47,7 @@ export const Navbar = () => {
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="#">Transfert Aéroport</a></li>
-                                    <li><a className="dropdown-item" href="#">Location Voiture</a></li>
+                                    <li><Link  className="dropdown-item" to="/vehicule">Location Voiture</Link></li>
                                     <li><a className="dropdown-item" href="#">Chauffeur Privé</a></li>
                                     <li><a className="dropdown-item" href="#">Inter ville</a></li>
                                 </ul>

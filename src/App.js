@@ -6,6 +6,7 @@ import { SignIn } from './pages/SignIn';
 import { SignUp } from './pages/SignUp';
 import { Vehicules } from './pages/Vehicules';
 import { NotFound } from './pages/404';
+import { Contacts } from './pages/contacts';
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
         < Route path="auth/register" element={<SignUp/>} />
         <Route path="/vehicule" element={<Vehicules/>} />
         <Route path="*" element={<NotFound/> }  />
-
+        <Route path='/contact' element={<Contacts/>} />
       </Routes>
     </Router>
   );
