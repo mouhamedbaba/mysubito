@@ -1,11 +1,11 @@
 export const Hero = () => {
     return (
-      <section className="hero ">
-        <div className="position-relative filter-bg-header mt-auto d-flex flex-column content-end w-100 h-100">
+      <section className="hero w-100  ">
+        <div className="mb- d-flex flex-column hero-content">
           <div className=" ">
-            <div className="hero-content-text text-light mx-4 ">
+            <div className="hero-content-text text-light mt-10 mx-4 ">
               <div className="max-w-md">
-                <h1 className="text-5xl  fw-bold text-light">Bienvenue !</h1>
+                <h1 className="text-5xl  fw-bold text-light">Bonjour !</h1>
                 <h3 className="text-light mt-2">
                   Ici commence l'itinéraire de vos rêves
                 </h3>
@@ -16,10 +16,11 @@ export const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="mt-auto">
-            <div className="hero-rent-container text-light ">
-              <ul className="nav nav-tabs " id="myTab" role="tablist">
-                <li className="nav-item nav-tab-hero-service raduis-5">
+          <div className="mt-auto tabs-block-bottom">
+            <div className="hero-rent-container text-light">
+        <div className="d-flex justify-content-center items-center">
+              <ul className="nav  nav-tabs-v2 border border-slate-100  " id="myTab" role="tablist">
+                <li className="nav-item border boreder-1 nav-item-start-v2 nav-tab-hero-service-v2  raduis-5">
                   <a
                     className="nav-link text-light border-0 border-none"
                     id="home-tab"
@@ -29,37 +30,17 @@ export const Hero = () => {
                     aria-controls="tab-home"
                     aria-selected="true"
                   >
-                    <span className="fas fa-plane-departurer"></span> Transfert Aeroport
+                    <div className="d-flex h-100 w-100 px-1 gap-2 align-items-center">
+                      <div className="">
+
+                    <span className="fas fa-plane-departure h-10 w-10"></span> 
+                      </div>
+                      <div className="">Transfert <br/> <span className="fw-bold">Aeroport</span> </div>
+                    </div>
   
                   </a>
                 </li>
-                <li className="nav-item ">
-                  <a
-                    className="nav-link text-light"
-                    id="profile-tab"
-                    data-bs-toggle="tab"
-                    href="#tab-profile"
-                    role="tab"
-                    aria-controls="tab-profile"
-                    aria-selected="false"
-                  >
-                    <span className="fas fa-globe"></span> Inter Ville
-                  </a>
-                </li>
-                <li className="nav-item ">
-                  <a
-                    className="nav-link text-light"
-                    id="contact-tab"
-                    data-bs-toggle="tab"
-                    href="#tab-contact"
-                    role="tab"
-                    aria-controls="tab-contact"
-                    aria-selected="false"
-                  >
-                    <span className="fas fa-globe"></span> Chauffeur Privé
-                  </a>
-                </li>
-                <li className="nav-item nav-tab-hero-service raduis-5">
+                <li className="nav-item border boreder-1  nav-tab-hero-service-v2  raduis-5">
                   <a
                     className="nav-link text-light border-0 border-none"
                     id="home-tab"
@@ -69,43 +50,106 @@ export const Hero = () => {
                     aria-controls="tab-home"
                     aria-selected="true"
                   >
-                    <span className="fas fa-globe"></span> Location Voiture
+                    <div className="d-flex h-100 w-100 px-1 gap-2 align-items-center">
+                      <div className="">
+
+                    <span className="fas fa-plane-departure h-10 w-10"></span> 
+                      </div>
+                      <div className="">VTC <br/> <span className="fw-bold">Inter Ville</span> </div>
+                    </div>
   
                   </a>
                 </li>
-                <li className="nav-item ">
+
+                <li className="nav-item border boreder-1  nav-tab-hero-service-v2  raduis-5">
                   <a
-                    className="nav-link text-light"
-                    id="profile-tab"
+                    className="nav-link text-light border-0 border-none"
+                    id="home-tab"
                     data-bs-toggle="tab"
-                    href="#tab-profile"
+                    href="#tab-home"
                     role="tab"
-                    aria-controls="tab-profile"
-                    aria-selected="false"
+                    aria-controls="tab-home"
+                    aria-selected="true"
                   >
-                    <span className="fas fa-globe"></span> Tourisme
+                    <div className="d-flex h-100 w-100 px-1 gap-2 align-items-center">
+                      <div className="">
+
+                    <span className="fas fa-plane-departure h-10 w-10"></span> 
+                      </div>
+                      <div className="">Location <br/> <span className="fw-bold">Voiture</span> </div>
+                    </div>
+  
                   </a>
                 </li>
-                <li className="nav-item ">
+
+                <li className="nav-item border boreder-1  nav-tab-hero-service-v2  raduis-5 d-flex  justify-content-center">
                   <a
-                    className="nav-link text-light"
-                    id="contact-tab"
+                    className="nav-link text-light border-0 border-none"
+                    id="home-tab"
                     data-bs-toggle="tab"
-                    href="#tab-contact"
+                    href="#tab-home"
                     role="tab"
-                    aria-controls="tab-contact"
-                    aria-selected="false"
+                    aria-controls="tab-home"
+                    aria-selected="true"
                   >
-                    <span className="fas fa-globe"></span> Billet Avions
+                    <div className="d-flex h-100 w-100 px-1 gap-2 align-items-center">
+                      <div className="">
+
+                    <span className="fas fa-calendar h-10 w-10"></span> 
+                      </div>
+                      <div className="">Evenements</div>
+                    </div>
+  
+                  </a>
+                </li>
+                <li className="nav-item border boreder-1  nav-tab-hero-service-v2  raduis-5">
+                  <a
+                    className="nav-link text-light border-0 border-none"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    href="#tab-home"
+                    role="tab"
+                    aria-controls="tab-home"
+                    aria-selected="true"
+                  >
+                    <div className="d-flex h-100 w-100 px-1 gap-2 align-items-center">
+                      <div className="">
+
+                    <span className="fas fa-plane-departure h-10 w-10"></span> 
+                      </div>
+                      <div className="">Circuit <br/> <span className="fw-bold">Touristique</span> </div>
+                    </div>
+  
+                  </a>
+                </li>
+                <li className="nav-item border boreder-1 nav-item-end-v2 nav-tab-hero-service-v2  raduis-5">
+                  <a
+                    className="nav-link text-light border-0 border-none"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    href="#tab-home"
+                    role="tab"
+                    aria-controls="tab-home"
+                    aria-selected="true"
+                  >
+                    <div className="d-flex h-100 w-100 px-1 gap-2 align-items-center">
+                      <div className="">
+
+                      <span className="fas fa-billet"></span>
+                      </div>
+                      <div className="">Billet <br/> <span className="fw-bold">Avion</span> </div>
+                    </div>
+  
                   </a>
                 </li>
               </ul>
+        </div>
               <div
-                className="tab-content hero-card-rent-container"
+                className="tab-content hero-card-rent-container-v2"
                 id="myTabContent"
               >
                 <div
-                  className="tab-pane card raduis-0 py-5 px-4 fade show active "
+                  className="tab-pane tab-pane-v2 card raduis-0 py-5 px-4 fade show active "
                   id="tab-home"
                   role="tabpanel"
                   aria-labelledby="home-tab"

@@ -7,6 +7,8 @@ export const Index = () => {
     <>
     <Navbar />
     <Hero />
+    <div className='bg-dark mt-10 h-100'>
+    </div>
     </>
   )
 }
