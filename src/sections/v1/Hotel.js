@@ -1,4 +1,4 @@
-import { CardHotel } from "../components/HotelCard"
+import { CardHotel } from "../../components/v1/HotelCard"
 
 export const Hotel = () => {
     return (

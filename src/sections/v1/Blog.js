@@ -1,4 +1,4 @@
-import BlogCard from "../components/BlogCard"
+import BlogCard from "../../components/v1/BlogCard"
 
 export const Blog = () => {
     return (

@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { HomeSubito } from './pages/Home';
+import { HomeSubito } from './pages/v1/Home';
 import './App.css';
-import { SignIn } from './pages/SignIn';
-import { SignUp } from './pages/SignUp';
-import { Vehicules } from './pages/Vehicules';
-import { NotFound } from './pages/404';
-import { Contacts } from './pages/contacts';
+import { SignIn } from './pages/v1/SignIn';
+import { SignUp } from './pages/v1/SignUp';
+import { Vehicules } from './pages/v1/Vehicules';
+import { NotFound } from './pages/v1/404';
+import { Contacts } from './pages/v1/contacts';
+import { Index } from './pages/v2';
 
 
 const App = () => {
@@ -19,6 +20,12 @@ const App = () => {
         <Route path="/vehicule" element={<Vehicules/>} />
         <Route path="*" element={<NotFound/> }  />
         <Route path='/contact' element={<Contacts/>} />
+
+
+
+
+
+        <Route path="/v2" element={<Index/>}  />
       </Routes>
     </Router>
   );

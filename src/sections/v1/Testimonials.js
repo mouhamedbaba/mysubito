@@ -1,5 +1,5 @@
-import TestimonialCard from "../components/TestimonialCard";
-import { SliderGrid } from "../utils/Slider";
+import TestimonialCard from "../../components/v1/TestimonialCard";
+import { SliderGrid } from "../../utils/Slider";
 
 
 

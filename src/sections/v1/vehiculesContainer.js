@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cards } from '../components/vehicules/cards'
+import { Cards } from '../../components/v1/vehicules/cards'
 
 export const VehiculesContainer = () => {
   return (

@@ -21,5 +21,5 @@ export const Cards = () => {
             </div>
         </div>
     </div>
-  )
+  ) 
 }

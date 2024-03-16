@@ -1,4 +1,4 @@
-import { DestinationCard } from "../components/DestinationCard"
+import { DestinationCard } from "../../components/v1/DestinationCard"
 
 export const Destination = () => {
     return (
