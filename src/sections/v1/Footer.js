@@ -11,22 +11,22 @@ export const Footer = () => {
                 <div className="col-md-4 col-lg-3">
                     <h5 className=" fw-bold text-subito">BESOIN D'AIDE ?</h5>
                     <ul className="nav flex-column">
-                        <li className="nav-item mt-2 mb-2"><a href="#" className="nav-link p-0 ">Contactez-nous</a></li>
-                        <li className="nav-item mt-3 mb-2"><a href="#" className="nav-link p-0  fw-bold"><span className="fas fa-phone text-subito mx-2"></span>+221 78 136 36 35</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold"><span className="fas fa-fax text-subito mx-2"></span>+221 78 136 36 35</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold"><span className="fas fa-envelope text-subito mx-2"></span>contact@subito.net</a></li>
+                        <li className="nav-item mt-2 mb-2"><a href="/" className="nav-link p-0 ">Contactez-nous</a></li>
+                        <li className="nav-item mt-3 mb-2"><a href="/" className="nav-link p-0  fw-bold"><span className="fas fa-phone text-subito mx-2"></span>+221 78 136 36 35</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold"><span className="fas fa-fax text-subito mx-2"></span>+221 78 136 36 35</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold"><span className="fas fa-envelope text-subito mx-2"></span>contact@subito.net</a></li>
                     </ul>
                 </div>
 
                 <div className="col-md-4 col-lg-3 d-none d-md-block">
                     <h5 className=" fw-bold text-subito">SERVICES</h5>
                     <ul className="nav flex-column">
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Voyage</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Tourisme</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Hébergement</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Chauffeur Privée</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Transfert Aéroport</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Location de véhicule</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Voyage</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Tourisme</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Hébergement</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Chauffeur Privée</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Transfert Aéroport</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Location de véhicule</a></li>
                     </ul>
                 </div>
 
@@ -43,10 +43,10 @@ export const Footer = () => {
                 <hr className="text-subito mt-2" />
                 <div className="footer-bottom" >
                 <ul className="nav flex-wrap justify-content-between">
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">FAQ</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Termes d'utilisateur</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0  fw-bold">Politique de confidentialité</a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 ">&copy; 2018-2023 <span className="fw-bold">Subito International</span></a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">FAQ</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Termes d'utilisateur</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0  fw-bold">Politique de confidentialité</a></li>
+                        <li className="nav-item mb-2"><a href="/" className="nav-link p-0 ">&copy; 2018-2023 <span className="fw-bold">Subito International</span></a></li>
                     </ul>
                 </div>
             </footer>

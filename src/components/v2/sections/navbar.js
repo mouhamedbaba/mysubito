@@ -5,11 +5,11 @@ export const Navbar = () => {
   return (
     <div>
       <nav
-        className={`navbar navbar-v2 fixed-top navbar-expand-lg  navbar-tansparent text-white `}
+        className={`navbar navbar-v2 fixed-top navbar-expand-lg  navbar-tansparent text-white  mx-0`}
       >
         <div className="container-fluid ">
-          <a className="navbar-brand ms-0.5" href="/">
-            <img className="logo h-50 w-50" src="logo.png" alt="logo" />
+          <a className="navbar-brand ms-0.5" href="/v2">
+            <img className="logo h-50 w-50 text-subito" src="https://mysubito.net/assets/logo-texte2-mysubito%201-740c9d1an.png" alt="Subito" />
           </a>
           <a
             href="/"
@@ -34,9 +34,9 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="mx-2    nav-item">
-                <a href="/" className={`nav-link  fw-semi-bold`} aria-current="page">
+                <Link to="/v2/aeroport_transfer" className={`nav-link  fw-semi-bold`} aria-current="page">
                   Transfert Aeroport
-                </a>
+                </Link>
               </li>
               <li className="mx-2    nav-item dropdown">
                 <a

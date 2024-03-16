@@ -8,6 +8,7 @@ import { Vehicules } from './pages/v1/Vehicules';
 import { NotFound } from './pages/v1/404';
 import { Contacts } from './pages/v1/contacts';
 import { Index } from './pages/v2';
+import { TransfereAeroport } from './pages/v2/transfere_aeroport';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
 
 
         <Route path="/v2" element={<Index/>}  />
+        <Route path="v2/aeroport_transfer" element={<TransfereAeroport/>}  />
       </Routes>
     </Router>
   );
