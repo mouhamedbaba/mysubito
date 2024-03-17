@@ -12,7 +12,7 @@ export const Vehicules = () => {
                 "sits": "4",
                 "box_type": "auto",
                 "fuel_type": "diesel",
-                "img": "https://api.mysubito.net/images/voitures/voiture_1702401313431.png",
+                "img": "",
                 "price": "5000",
                 "currency": "XOF"
             },
@@ -24,7 +24,7 @@ export const Vehicules = () => {
                 "sits": "4",
                 "box_type": "auto",
                 "fuel_type": "diesel",
-                "img": "https://api.mysubito.net/images/voitures/voiture_1702401313431.png",
+                "img": "",
                 "price": "5000",
                 "currency": "XOF"
             },
@@ -36,7 +36,7 @@ export const Vehicules = () => {
                 "sits": "4",
                 "box_type": "auto",
                 "fuel_type": "diesel",
-                "img": "https://api.mysubito.net/images/voitures/voiture_1702401313431.png",
+                "img": "",
                 "price": "5000",
                 "currency": "XOF"
             },
@@ -48,7 +48,7 @@ export const Vehicules = () => {
                 "sits": "4",
                 "box_type": "auto",
                 "fuel_type": "diesel",
-                "img": "https://api.mysubito.net/images/voitures/voiture_1702401313431.png",
+                "img": "",
                 "price": "5000",
                 "currency": "XOF"
             }
