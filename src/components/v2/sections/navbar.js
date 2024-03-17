@@ -9,7 +9,7 @@ export const Navbar = () => {
       >
         <div className="container-fluid ">
           <a className="navbar-brand ms-0.5" href="/v2">
-            <img className="logo h-50 w-50 text-subito" src="https://mysubito.net/assets/logo-texte2-mysubito%201-740c9d1an.png" alt="Subito" />
+            <img className="logo h-50 w-50 text-subito" src="" alt="Subito" />
           </a>
           <a
             href="/"

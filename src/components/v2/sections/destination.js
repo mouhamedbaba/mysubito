@@ -13,10 +13,10 @@ export const Destination = () => {
             <div className="destination-row gy-3">
                 <div className="row gy-3">
                     <div className="col-12 col-md-6 ">
-                        <DestinationCard src="https://api.mysubito.net/destinations/mysubito_1706294340648.jpeg" title="Caps Skirring" />
+                        <DestinationCard src="" title="Caps Skirring" />
                     </div>
                     <div className="col-6 col-md-3 ">
-                        <DestinationCard src="https://api.mysubito.net/destinations/mysubito_1706285210728.jpeg" title="Dakar" />
+                        <DestinationCard src="assets/img/hotel/hotel2.png" title="Dakar" />
                     </div>
                     <div className="col-6 col-md-3 ">
                         <DestinationCard src="assets/img/hotel/hotel3.png" title="Kédougou" />
@@ -24,13 +24,13 @@ export const Destination = () => {
                 </div>
                 <div className="row gy-3 mt-3">
                     <div className="col-6 col-md-3 ">
-                        <DestinationCard src="https://api.mysubito.net/destinations/mysubito_1706290913811.jpeg" title="Saly" />
+                        <DestinationCard src="g" title="Saly" />
                     </div>
                     <div className="col-6 col-md-3 ">
-                        <DestinationCard src="https://api.mysubito.net/destinations/mysubito_1706291507199.jpeg" title="Saint-Louis" />
+                        <DestinationCard src="" title="Saint-Louis" />
                     </div>
                     <div className="col-12 col-md-6 ">
-                        <DestinationCard src="https://api.mysubito.net/destinations/mysubito_1706292317022.jpeg" title="Lac rose" />
+                        <DestinationCard src="" title="Lac rose" />
                     </div>
                 </div>
             </div>
